@@ -36,8 +36,6 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
-        
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
         nameLabel.textColor = UIColor.blueColor()
@@ -45,6 +43,8 @@ class ViewController: UIViewController {
         enterNameTextField.text = ""
         enterNameTextField.resignFirstResponder()
         
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+
     }
 
 }
